@@ -9,7 +9,7 @@
 
 let txt=prompt("soz daxil edin:");
 
-let txt_trim=txt.trim(); // u,u,i daxil edilen metn
+let txt_trim=txt.trim(); // umumi daxil edilen metn
 let last_index=txt.indexOf(" ");
 let txt_birinci_soz=txt_trim.substring(0,last_index); // evvel ve axir bosluqlar silindi, birinci soz secildi umumi metnden.
 
